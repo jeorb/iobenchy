@@ -9,10 +9,18 @@ This README.md is used as a design document as I plan out features.
   - [x] Write specified number of random bytes to a file
   - [x] Time how long it takes to write the data
   - [ ] Break down writes into various sizes
-  - [ ] Display results in a table (see "Storage IO" below for desired format)
-  - [ ] Option to print results as JSON instead of a table
 - [ ] Network IO
   - [ ] Do anything
+- [ ] General
+  - [ ] Add verbosity levels
+    - [ ] Verbose (default) - Show messages about what is happening as the benchmark runs
+    - [ ] Quiet - Just the results
+    - [ ] Debug - (maybe?) More info about what is happening
+  - [ ] Option to write results table or JSON to a file
+  - [ ] Exit codes (e.g. 0 for success, 1 for error)
+  - [ ] Display results in a table (see "Storage IO" below for desired format)
+  - [ ] Option to print results as JSON instead of a table
+  - [ ] Parse units for the number of bytes (KB, MB, MiB, etc.)
 
 "Screenshot" of Current Status
 ```
